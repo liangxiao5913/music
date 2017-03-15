@@ -1,0 +1,340 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jomendomusic</title>
+<link rel="stylesheet" href="css/001.css" type="text/css">
+<link rel="stylesheet" href="css/size.css" type="text/css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/slide.js"></script>
+<script >
+$(document).ready(function() {
+	$(".slideInner").slide({
+		slideContainer: $('.slideInner a'),
+		effect: 'easeOutCirc',
+		autoRunTime: 5000,
+		slideSpeed: 1000,
+		nav: true,
+		autoRun: true,
+		prevBtn: $('a.prev'),
+		nextBtn: $('a.next')
+	})
+})
+$(function(){
+    $(".lanren dl").hover(function(){
+        $(this).find(".hide,.wx").show();
+    },function(){
+        $(this).find(".hide,.wx").hide();
+    })
+})
+
+</script>
+</head>
+<body>
+<div>
+<div class="top_01">
+	<div class="top_02">
+		<img class="float_left" src="images/logo.png" alt="jomendomusic-logo">
+		<nav class="nav_01" id="nav">
+			<li><a class="menu_02" href="#">首页</a></li>
+			<li><a class="menu_01" href="artist.html">艺人</a></li>
+			<li><a class="menu_01" href="paihangbang.html">排行榜</a></li>
+			<li><a class="menu_01" href="new.html">新闻动态</a></li>
+		<ul>
+			<div class="top_05">
+				<input type="search" class="search" placeholder="歌曲/艺人/专辑"><input class="search01" type="submit" />
+				<li>
+			      <select>
+			      	<option value ="volvo">中文</option>
+                    <option value ="saab">英文</option>
+			      </select>
+				</li>
+				<li>
+					<a class="top_03" href="#">注册</a>
+				</li>
+				<li>
+					<a class="top_03" href="#">登录</a>
+				</li>
+			</div>
+		</ul>
+		</nav>
+	</div>
+</div>
+<div class="slides">
+	<div class="slideInner">
+		<a href="#" style="background: url(images/slide2.jpg) no-repeat">
+			<div class="moveElem img1" rel="0,easeInOutExpo"> <img src="images/t_01-w.png" /> </div>
+		</a>
+		<a href="#" class="slide3" style="background: url(images/slide3.jpg) no-repeat;">
+			<div class="moveElem img1" rel="0,easeInOutExpo"> <img src="images/slide3p1.png" /> </div>
+			<div class="moveElem img2" rel="150,easeInOutExpo"> <img src="images/slide3p2.png" /> </div>
+			<div class="moveElem img3" rel="300,easeInOutExpo"> <img src="images/slide3p3.png" /> </div>
+		</a>
+	</div>
+	<div class="nav">
+		<a class="prev" href="javascript:;"></a>
+		<a class="next" href="javascript:;"></a>
+	</div>
+</div>
+</div>
+<div class="box_02">
+	<div class="locate">
+ 		<a href="http://www.liangxiao.online"><img src="images/original (1).png" alt="梁逍的博客"></a>
+	</div>
+<!-- 代码部分begin -->
+	<div class="lanren">
+		<div class="full-length">
+		    <div class="container">
+		    	<!-- Effect-1 -->
+	<div class="box_05">
+	   <div>
+    	  <h1>最新专辑</h1>
+	   </div>
+	   <span class="box_03">
+	     <a href="#"><p>更多专辑</p></a>
+	   </span>
+	</div>
+	  <hr> 
+		        <ul>
+		        	<li>
+	            	
+		            	<div class="port-1 effect-1">
+		                	<div class="image-box">
+		                    	<img src="images/buwangchuxin.png" alt="Image-1">
+		                    </div>
+		                    <div class="text-desc">
+		                    	<h3>见素抱朴 不忘初心</h3>
+		                        <p>
+        听完《无法长大》这张专辑，总会思考一个问题：成长的意义是什么呢？是不再带着棱角和刺直面世界？是对所有不公平和潜规则妥协？还是一路走一路寻找最初的感动？这些零碎的定义，看起来都不足以阐述成长。而赵这张专辑，似乎也在寻找着答案……
+</p>
+		                    	<a href="#" class="btn">Learn more</a>
+		                    </div>
+		                </div>
+		            </li>
+		            <li>
+		            	<div class="port-1 effect-2">
+		                	<div class="image-box">
+		                    	<img src="images/yanzi.png" alt="Image-2">
+		                    </div>
+		                    <div class="text-desc">
+		                    	<h3>彩虹金刚</h3>
+		                        <p>孙燕姿于2016年8月19日发行了实验性EP《彩虹金刚》，其中的同名歌曲《彩虹金刚》是一趟回归童真的音乐冒险之旅，孙燕姿希望将该歌曲奉献给孩子和身为大人的听众。[</p>
+		                    	<a href="#" class="btn">Learn more</a>
+		                    </div>
+		                </div>
+		            </li>
+		            <li>
+		            	<div class="port-1 effect-3">
+		                	<div class="image-box">
+		                    	<img src="images/rangwoliuzai.png" alt="Image-3">
+		                    </div>
+		                    <div class="text-desc">
+		                    	<h3>让我留在你身边</h3>
+		                        <p>《让我留在你身边》不仅是张嘉佳送给自己和梅茜的礼物，也是送给所有渴望美好、心怀孤独的人，一份美好礼物。</p>
+		                    	<a href="#" class="btn">Learn more</a>
+		                    </div>
+		                </div>
+		            </li>
+		        </ul>
+			</div>
+		</div>
+	</div>
+	      
+		        <!-- Effect-1 End -->
+<div class="box_05">
+	   <div>
+    	  <h1>精选单曲</h1>
+	</div>
+	  
+	</div>
+	  <hr> 
+	<img style="margin-top: 2px; float: left;" src="images/joy.png" alt="周杰伦">
+	<div class="box_01">
+	   <p><strong>安静</strong>-周杰伦</p>
+	</div>
+	<!-- <embed height="42" width="898" src="mp3/test.mp3" autostart="false" palette="red|black"/> -->
+    <img src="images/play04.png" alt="">
+	    <div class="box_06">
+			<table cellspacing="0" cellpadding="5">
+				<tr style="background: #FFFFFF">
+					<th scope="row">1</th>
+					<td>24K Magic</td>
+					<td>Bruno Mars</td>
+					<td>24K Magic</td>
+					<td>3:46</td>
+					<td> <a href="#"> <img src="images/play.png" alt=""></a></td>	
+					<td><a href="#"> <img src="images/pay.png" alt=""></a></td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>24K Magic</td>
+					<td>Bruno Mars</td>
+					<td>24K Magic</td>
+					<td>3:46</td>
+					<td> <a href="#"> <img src="images/play.png" alt=""></a></td>	
+					<td><a href="#"> <img src="images/pay.png" alt=""></a></td>
+				</tr>
+				<tr style="background: #FFFFFF">
+					<th scope="row">3</th>
+					<td>24K Magic</td>
+					<td>Bruno Mars</td>
+					<td>24K Magic</td>
+					<td>3:46</td>
+					<td> <a href="#" ><img src="images/play.png" alt=""></a></td>	
+					<td><a href="#" ><img src="images/pay.png" alt=""></a></td>
+				</tr>
+				<tr>
+					<th scope="row">5</th>
+					<td>24K Magic</td>
+					<td>Bruno Mars</td>
+					<td>24K Magic</td>
+					<td>3:46</td>
+					<td> <a href="#"> <img src="images/play.png" alt=""></a></td>	
+					<td><a href="#"> <img src="images/pay.png" alt=""></a></td>
+				</tr>
+				<tr style="background: #FFFFFF">
+					<th scope="row">6</th>
+					<td>24K Magic</td>
+					<td>Bruno Mars</td>
+					<td>24K Magic</td>
+					<td>3:46</td>
+					<td> <a href="#"> <img src="images/play.png" alt=""></a></td>	
+					<td><a href="#"> <img src="images/pay.png" alt=""></a></td>
+				</tr>
+				<tr>
+					<th scope="row">7</th>
+					<td>24K Magic</td>
+					<td>Bruno Mars</td>
+					<td>24K Magic</td>
+					<td>3:46</td>
+					<td> <a href="#"> <img src="images/play.png" alt=""></a></td>	
+					<td><a href="#"> <img src="images/pay.png" alt=""></a></td>
+				</tr>
+			</table>
+		</div>	
+	<div class="box_05">
+		<div>
+			<h1>排行榜</h1>
+		</div>
+    </div>
+	<hr>
+	<div class="box_07">
+	   <div class="lanren">
+			<dl>
+				<dt><img src="images/joyzhuanji.png" alt="" /></dt>
+				<a href="#">床边故事<br>周杰伦（Joy Chou）</a>
+				<dd class="hide"></dd>
+				<dd class="wx"><img src="images/play2.png" alt="" /></dd>
+			</dl>
+				<dl>
+					<dt><img src="images/mayday20.png" /></dt>
+					<a href="#">派對動物 (Party Animal)<br>五月天(Mayday</a>
+					<dd class="hide"></dd>
+					<dd class="wx"><img src="images/play2.png" /></dd>
+				</dl>
+				 <dl>
+					<dt><img src="images/mayday21.png" /></dt>
+					<a href="#">勇敢<br>五月天 (Mayday)</a>
+					<dd class="hide"></dd>
+					<dd class="wx"><img src="images/play2.png" /></dd>
+				</dl>
+				 <dl>
+					<dt><img src="images/Closer.png" /></dt>
+					<a href="#">Closer <br>The Chainsmokers (老菸槍雙人組)</a>
+					<dd class="hide"></dd>
+					<dd class="wx"><img src="images/play2.png" /></dd>
+				</dl>
+		</div>
+    </div>
+	<div class="box_05">
+		<div>
+			<h1>热门音乐家</h1>
+		</div>
+    </div>
+	<hr>
+	<div class="box_07">
+	    <ul>
+			 <li>
+					<a href="#"><img src="images/joy.jpg.png" width="235">周杰伦（Joy Chou）<br>港台</a>
+			 </li>
+			 <li>
+					<a href="#"><img src="images/yixun23.png" width="235">陳奕迅 (Eason Chan)<br>港台</a>
+			 </li>
+			 <li	>
+					<a  href="#"><img src="images/yanzi24.png" width="235">孙燕姿<br>华语流行</a>
+			 </li>
+			 <li>
+					<a  href="#"><img src="images/blank-space.jpg.png" width="235">Blank Space<br>欧美流行</a>
+			 </li>
+		</ul>	 
+    </div>
+	<div class="box_05">
+		<div>
+			<h1>艺人新闻</h1>
+		</div>
+    </div>
+    <hr>
+	<div>
+			<div class="box_08">
+				<hr class="hr_01">
+				<img class="float_left" src="images/20170301.png">
+				<div> 
+					<a href="#"><h3>2016日本年輕一代票選最愛聽的歌手，上榜的竟是？！</h3></a>
+					<p style="font-size: 9px; color: #999999;">2016-12-24</p>
+					<br>
+					<p class="p_12">近日日本節目「オスカル！はなきんリサーチ」（暫譯：奧斯卡！週末夜大調查）在年輕人的聚集地：
+涉谷、下北澤、池袋，做了一個票選「10～25歲女性票選今年最常聽的J-Pop藝人」，讓路人選出自己
+今年最常聽的歌手，.. </p>
+				</div>
+		</div>
+		<div class="box_08">
+			<img class="float_left" src="images/2017030101.png">
+			<div> 
+				<a href="#"><h3>第59屆葛萊美獎 入圍名單揭曉</h3></a>
+				<p style="font-size: 9px; color: #999999;">2016-12-17</p>
+				<br>
+				<p class="p_12">全球矚目的西洋音樂盛事「Grammy Awards 葛萊美獎」，稍早已公佈第59屆的入圍名單。本年度提名
+最多的贏家為碧昂絲，憑藉【Lemonade】囊括年度專輯與歌曲以及最佳流行演出等共9項提名，緊追在
+後的歌手為Kayne West、Rihanna和Drake，皆入圍多達8項。</p>
+			</div>
+		</div>
+		<hr class="hr_01">
+	</div>
+</div>
+<footer>
+<div class="footer_style">
+	<div class="box_02">
+		<div class="footer_box01">
+			<h5>关于我们</h5>
+			<br>	
+			<p>北京大圣齐天文化传媒股份有限公司是目前中国最年轻、最具实力的专注于推动美国音乐、艺术资源服务于中国音乐、娱乐行业的国际性传媒公司。公司在美国拥有专属的音乐资源聚合器平台，囊括制作、拍摄、后期、Mixing、乐队、演奏家、艺人等众多人才资源。我们将为中国音乐、娱乐行业架起最优质、最安全、最全面、最直接的资源输送桥梁。
+			</p>
+		</div>
+		<div class="footer_box02">
+			<h5>网站索引</h5>
+			<br>	
+			<dl>
+				<dd>首页</dd>
+				<dd>新闻动态</dd>
+				<dd>艺人</dd>
+				<dd>排行榜</dd>
+			</dl>
+		</div>
+		<div class="footer_box03">
+			<h5>联系我们</h5>
+			<br>
+			<dl>	
+				<dd> <img src="images/lx.png" alt="lx">&nbsp;&nbsp;1872590 8393</dd>
+				<dd> <img src="images/weixin.png" alt="weixin">&nbsp;&nbsp;monkeykingmusic</dd>
+				<dd> <img src="images/email.png" alt="email">&nbsp;&nbsp;liangxiaovip@outlook.com</dd>
+			</dl>
+		</div>
+	</div>
+</div>	
+<div class="footer_style01">
+	<hr>
+	<p>版权所有jomendomusic <a href="http://www.liangxiao.online">梁逍</a> 纯手工打造 © 2017</p>
+</div> 
+</footer>
+</body>
+</html>
